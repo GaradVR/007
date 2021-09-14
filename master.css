@@ -1,0 +1,59 @@
+	body{
+	margin: 0 auto;
+}
+element.style {
+    background: #333;
+    background-image: url(images/svet.jpg);
+	width: 80%;
+    margin: 20px auto 40px auto;
+    background-color: #fff;
+  color: #333;
+}
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+  background-color: #fff;
+  color: #333;
+}
+	}
+	.logo{
+		display:flex; 
+		align-items: center;
+	}
+	.logo-img{
+		margin-right:15px;
+	}
+	.logo-title{
+		color:#ffffff;
+		font-size:42px;
+	}
+	.hor-menu ul li{
+		list-style-type:none;
+		float: left;
+		padding:15px 15px;
+		color:#fff;
+		font
+	}
+	.hor-menu ul li a{
+		color:none;
+		text-decoration: none;
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+	a:hover {
+	background:none;
+	transition:all 0.5s;
+}
+	header{
+		background:none;
+		margin-left:15px;
+		margin-top:30px;
+		display:flex;
+		justify-content:space-between;
+	}
+	.slides{
+		display: flex;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+	}
+	
